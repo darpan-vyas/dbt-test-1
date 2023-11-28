@@ -1,4 +1,4 @@
-name: 'sample'
+name: 'dbt_test_1'
 version: '1.0.0'
 config-version: 2
 
@@ -9,5 +9,5 @@ model-paths: ["models"]
 
 
 models:
-  dbt_trino:
+  dbt_test_1:
     +materialized: view
