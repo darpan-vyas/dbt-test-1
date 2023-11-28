@@ -2,7 +2,7 @@ name: 'sample'
 version: '1.0.0'
 config-version: 2
 
-profile: 'dbt_test-1'
+profile: 'dbt_test_1'
 
 
 model-paths: ["models"]
