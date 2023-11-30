@@ -1,7 +1,7 @@
 select
     *
 from
-    retail.raw.customer
+    retail.raw.customer_360_final
 where
     customer_id is null or
     age<0 or
