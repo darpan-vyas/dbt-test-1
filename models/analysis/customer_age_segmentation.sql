@@ -1,3 +1,3 @@
 {{ config(materialized='view') }}
 
-SELECT age, count(*) as total_customers FROM sdk_sample_dataset group by 1 order by 1
+select age, count(*) from icebase.retail.customer_360_final group by 1 order by 1
