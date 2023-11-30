@@ -1,5 +1,5 @@
 select
-    age_bracket
+    *
 from
     {{ ref('customer_age_segmentation')}}
 where
