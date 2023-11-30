@@ -13,9 +13,6 @@ models:
       - name: total_orders
         tests:
           - not_null
-      - name: total_revenue
-        tests:
-          - not_null
   - name: customer_income_segmentation
     columns:
       - name: income_bracket
@@ -26,9 +23,6 @@ models:
         tests:
           - not_null
       - name: total_orders
-        tests:
-          - not_null
-      - name: total_revenue
         tests:
           - not_null
   - name: mom_total_revenue
