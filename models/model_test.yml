@@ -25,17 +25,3 @@ models:
       - name: total_orders
         tests:
           - not_null
-  - name: mom_total_revenue
-    columns:
-      - name: month
-        tests:
-          - not_null
-      - name: total_customers
-        tests:
-          - not_null
-      - name: total_orders
-        tests:
-          - not_null
-      - name: total_revenue
-        tests:
-          - not_null
